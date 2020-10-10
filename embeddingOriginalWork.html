@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>embeddingOriginalWork</title>
+
+    <style type="text/css">
+        h1 {
+            font-size: 50px;
+            color: aqua;
+        }
+
+        p {
+            font-size: 30px;
+            margin: 0;
+        }
+        .xx {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+
+        .pdf{
+                   width: 800px;
+                   height: 600px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+<!--    <p>I am normal</p>                                      -->
+<!--    <p style="color:red;">I am red</p>-->
+<!--    <p style="color:blue;">I am blue</p>-->
+<!--    <p style="font-size:50px;">I am big</p>-->
+
+
+<!--    <div class="xx"></div>-->
+
+<!--<div>-->
+<!--    <audio controls>-->
+<!--        <source src="https://sharefs.yun.kugou.com/202010101506/c7e6368fa7edb557a004050f56543c1f/G109/M01/04/11/TZQEAFmRKEuAAgW_ADXkNzKjPEU506.mp3"-->
+<!--                type="audio/mpeg">-->
+<!--        Your browser does not support the audio element.-->
+<!--    </audio>-->
+<!--</div>-->
+<h2>A Youtube video that plays starting at minute 3</h2>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KdCimwhckf4?start=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h2>A video that plays using the HTML5 video tag</h2>
+<div>
+    <video width="400" controls>
+        <source src="http://www.ugoshow.com/movie.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+</div>
+<h2>Something using the object tag</h2>
+<div class="pdf">
+    <object width="100%" height="600px" data="http://www.ugoshow.com/pdf01.pdf" type="application/pdf">
+    </object>
+</div>
+</body>
+</html>
